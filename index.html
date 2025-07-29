@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Baby Shower de Fátima</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Quicksand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+
+  <!-- Fondo decorativo -->
+  <div class="background"></div>
+
+  <!-- Imagen principal -->
+  <div class="hero">
+    <img src="titi.png" alt="Fátima hada en flor" class="hero-img"/>
+    <h1 class="title">Fatima's baby shower</h1>
+    <p>Te invitamos a celebrar la junto a nosotros</p>
+  </div>
+
+  <!-- Cards de información -->
+  <section class="info-section">
+    <div class="card" onclick="toggleCard(this)">
+      <img src="fecha.jpg" alt="Fecha y hora">
+      <div class="card-text"> Sabado 23 de agosto , 10:30 AM</div>
+    </div>
+    <div class="card" onclick="toggleCard(this)">
+  <img src="ubi.jpg" alt="Ubicación">
+  <div class="card-text">
+    Casa campo altos del río, La Paz - Cesar<br>
+    <a href="https://maps.app.goo.gl/Zeo5L8gTLXXYFPF78" target="_blank" class="boton">Ver ubicación</a>
+  </div>
+</div>
+    <div class="card" onclick="toggleCard(this)">
+      <img src="ropa.jpg" alt="Vestimenta">
+      <div class="card-text">Código de vestimenta: Casual</div>
+    </div>
+  </section>
+
+  <!-- Contador regresivo -->
+  <section class="contador-section">
+    <h2 class="contador-title">Faltan</h2>
+    <div id="countdown"></div>
+  </section>
+
+  <!-- Botón de Confirmación -->
+  <section class="confirmar-section">
+    <a href="https://forms.gle/KxwCicUMkvjBkdm2A" target="_blank" class="confirmar-btn">Confirmar asistencia</a>
+  </section>
+
+  <!-- Footer decorativo -->
+  <footer class="footer">
+    <p>Con amor te esperamos para celebrar la llegada de Fátima</p>
+  </footer>
+
+</body>
+</html>
